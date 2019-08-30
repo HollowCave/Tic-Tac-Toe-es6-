@@ -6,11 +6,12 @@ class ChooseSquare {
   squareIsClicked() {
     window.addEventListener('click', function(e){
       let square = document.querySelectorAll('.tic-square');
+      let x = `<p class="pick-x">x</p>`;
       let click = e.target;
 
       for (let i = 0; i < square.length; i++) {
         if (click === square[i]) {
-          square[i].innerHTML = 'x';
+          square[i].innerHTML = x;
         }
       }
 

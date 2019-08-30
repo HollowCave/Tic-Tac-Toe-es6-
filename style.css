@@ -22,5 +22,17 @@ body {
 }
 
 .tic-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.pick-x {
+  margin: 0;
+  line-height: 0;
+  font-size: 90px;
+  text-transform: uppercase;
+  cursor: default;
 }
